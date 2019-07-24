@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- one such mapping can contain multiple entity mappings in the same package -->
+<hibernate-mapping package="com.niit.JSPwithHibernate">
+<!-- Book-entity mapping -->
+
+<class table="Books" name="Book">
+
+<id name="bookid" type="int"/>
+<property name="bookName"/>
+
+<property name="Author"/>
+<property name="Price" type="int"/>
+
+</class>
+
+</hibernate-mapping >
